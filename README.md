@@ -1,6 +1,6 @@
 # BookShout Fulfillment API Client
 
-This is the Bookshout Fulfillment API client gem, it can be used to request that
+This is the BookShout Fulfillment API client gem, it can be used to request that
 a book code be sent to an email address.
 
 This gem provides a simple wrapper around the HTTP version of the API.

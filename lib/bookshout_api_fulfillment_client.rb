@@ -7,7 +7,7 @@ require 'bookshout_api/response'
 
 module Bookshout
   module API
-    # This is the Bookshout Fulfillment API Client gem, it can be used to generate
+    # This is the BookShout Fulfillment API Client gem, it can be used to generate
     # and send book codes to an email address.
     #
     # This gem is provides a simple wrapper around the HTTP version of the API.
