@@ -1,4 +1,4 @@
-# BookshoutFulfillmentAPIClient
+# BookShout Fulfillment API Client
 
 This is the Bookshout Fulfillment API client gem, it can be used to request that
 a book code be sent to an email address.
