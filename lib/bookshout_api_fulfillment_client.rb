@@ -7,8 +7,8 @@ require 'bookshout_api/response'
 
 module Bookshout
   module API
-    # This is the BookShout Fulfillment API Client gem, it can be used to generate
-    # and send book codes to an email address.
+    # This is the BookShout Fulfillment API Client gem, it can be used to
+    # generate and send book codes to an email address.
     #
     # This gem is provides a simple wrapper around the HTTP version of the API.
     #
@@ -81,6 +81,5 @@ module Bookshout
         ENV['BOOKSHOUT_FULFILLMENT_HOST'] || config['host']
       end
     end
-
   end
 end

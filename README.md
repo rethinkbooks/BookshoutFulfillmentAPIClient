@@ -16,6 +16,7 @@ response = client.send_book(isbn: '9781250075598', email: 'jerry.horne@example.c
 
 if response.successful?
   puts "all is well, user will receive code shortly"
+  puts response.request_id
 else
   puts "something went wrong:"
   puts response.message

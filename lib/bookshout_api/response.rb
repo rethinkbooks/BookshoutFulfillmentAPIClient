@@ -5,6 +5,7 @@ module Bookshout
     class FulfillmentResponse
       attr_reader :message
       attr_reader :status
+      attr_reader :request_id
 
       # FulfillmentResponse objects should always be initialized directly from
       # the original RestClient::Response object
